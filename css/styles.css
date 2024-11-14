@@ -1,0 +1,541 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("../medios-Rumbo/img/header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* Apuntamos a la barra de navegación que está dentro de header */
+header nav{
+    /* background-color: red; */
+    display: flex;
+    /* height: 400px; */
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    
+    
+
+}
+
+.logo{
+
+    width: 155px;
+}
+
+
+
+header ul a{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin: 0 18px;
+    text-decoration: none;
+    transition: .6s;
+}
+
+header ul a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+#hero{
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 210px;
+    
+}
+
+#hero h2{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+#hero h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+#hero button {
+    background-color: transparent;
+    color: #000000;
+    font-size: 32px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#planes{
+    width: 100%;
+    padding: 120px 0;
+    text-align: center;
+
+}
+#planes h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#planes p{
+    font-size: 22px;
+}
+
+#planes .fila{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#planes article{
+    margin: 0 40px;
+    position: relative;
+}
+
+#planes article h3{
+    position: absolute;
+    z-index: 9;
+    top: 110px;
+    width: 100%;
+    text-align: center;
+    color: yellow;
+}
+
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#destinos{
+    width: 100%;
+    padding: 120px 0;
+    text-align: center;
+
+}
+#destinos h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: yellow;
+}
+
+#destinos .fila{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#destinos article{
+    margin: 0 40px;
+    position: relative;
+}
+
+#destinos article h3{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#destinos{
+    background: url(../medios-Rumbo/img/bg-destinos.png);
+    background-size: cover;
+}
+
+#contacto h2{
+    font-size: 50px;
+}
+
+#contacto p{
+    font-size: 20px;
+}
+
+#contacto{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    background-color: yellow;
+}
+
+#contacto form{
+    width: 50%;
+    margin: 40px auto;
+    
+}
+
+#contacto input,
+#contacto select{
+    width: 40%;
+    padding: 8px 14px;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+
+#contacto button{
+    padding: 14px 30px;
+    font-size: 20px;
+    background-color: #9e9e06;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 60px;
+    border-color: transparent;
+
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+}
+
+
+
+____________________________________  1 CAMBIOS 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.service-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    flex-basis: 48%;
+    padding: 20px;
+}
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.service h2 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 15px;
+}
+.service p {
+    color: #666;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.btn:hover {
+    background-color: #e03570;
+}
+
+    
+
+________________________________________2 CAMBIOS
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.section {
+    display: flex;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+.video-container {
+    flex: 1;
+}
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+}
+.text-container {
+    flex: 1;
+}
+.text-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+_____________________________3
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+.container h2 {
+    font-size: 24px;
+    color: #333;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.service-card {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+.service-card .icon {
+    background-color: #17a2b8;
+    padding: 15px;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-right: 15px;
+}
+.service-card .text {
+    font-size: 16px;
+    color: #333;
+}
+.view-all-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff0066;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+_________________________________________4
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+}
+.container h2 {
+    font-size: 24px;
+    color: #333;
+     text-align: center;
+}
+.description {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0 20px;
+}
+.pricing {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.pricing-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.pricing-item .title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+.pricing-item .price {
+    background-color: #e3f6f5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #333;
+    font-weight: bold;
+}
+.view-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff0066;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+___________________________________5
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.faq-section {
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.faq-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+.plus {
+    font-size: 24px;
+    color: #666;
+}
+
+
+
+_________________________________utlimo 
+
+    
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f4f2;
+}
+
+.testimonios {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonio {
+    flex: 1;
+    text-align: center;
+}
+
+.texto {
+    font-size: 1rem;
+    color: #2d3a45;
+    margin-bottom: 1rem;
+}
+
+.autor {
+    font-size: 1rem;
+    font-style: italic;
+    color: #2d3a45;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
